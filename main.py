@@ -3,7 +3,7 @@ from weather import get_weather_forecast_data, get_dict_with_weather_data_lists
 
 if __name__ == "__main__":
     city = input("City? \n")
-    date_str = input("Date? (format example: 2023-08-15). Max forecast is 12 days ahead \n")
+    date_str = input("Date? (format example: 2023-08-15). Max forecast is 13 days ahead \n")
 
     weather_forecast_data = get_weather_forecast_data(city, date_str)
     dict_with_weather_data_lists = get_dict_with_weather_data_lists(weather_forecast_data)
